@@ -33,16 +33,16 @@ function ContactMe({}: Props) {
           </div>
         </div>
 
-        <form>
-          <div>
-            <input type='' />
-            <input type='' />
+        <form className='flex flex-col space-y-2 w-fit mx-auto'>
+          <div className='flex space-x-2'>
+            <input className='contactInput' type='' />
+            <input className='contactInput' type='' />
           </div>
 
-          <input type='text' />
+          <input className='contactInput' type='text' />
 
-          <textarea></textarea>
-          <button></button>
+          <textarea className='contactInput' />
+          <button>Submit</button>
         </form>
       </div>
     </div>
